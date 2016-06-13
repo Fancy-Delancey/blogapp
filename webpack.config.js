@@ -34,7 +34,7 @@ const config = {
     // Generate index.html with included script tags
     new HtmlWebpackPlugin({
       inject: 'body',
-      template: 'app/index.html'
+      template: 'index.html'
     }),
 
     // Do not output to dist if there are errors
